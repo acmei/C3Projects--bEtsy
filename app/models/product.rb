@@ -10,7 +10,7 @@ class Product < ActiveRecord::Base
   has_many :order_items
 
   def retire_product
-    self.retired = "no" ? self.retired = "yes" : self.retired = "no"
+    self.retired ? self.retired = false : self.retired = true
   end
 
 
