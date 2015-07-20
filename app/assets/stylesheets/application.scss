@@ -16,25 +16,12 @@
  @import "bootstrap";
  @import url(http://fonts.googleapis.com/css?family=Cherry+Swash:400,700);
 
- .navbar-brand {
-  font-family: 'Cherry Swash', cursive;
-  font-size: 1.8em;
- }
-
- .navbar-right {
-  margin-right: 25px;
- }
-
  .cart {
   font-size: 1.4em;
  }
 
 .container {
-  margin-top: 10%;  
-}
-
-.jumbotron {
-  margin-top: 55px;
+  margin-top: 10%;
 }
 
 .no-jumbo {
@@ -47,12 +34,8 @@ footer {
   margin: 20px 0;
 }
 
-.review_rating {
-  font-weight: bold;
-}
-
-.review_time {
-  font-style: italic;
+.jumbotron {
+  margin-top: 55px;
 }
 
 .jumbotron {
@@ -67,7 +50,23 @@ footer {
   font-weight: bold;
   text-shadow: 2px 2px 2px #858585;
 }
+<<<<<<< HEAD
 
 .form-header h1, h2, h3 {
   font-family: 'Cherry Swash', cursive;
+=======
+ .navbar-brand {
+  font-family: 'Cherry Swash', cursive;
+  font-size: 1.8em;
+ }
+
+ .navbar-right {
+  margin-right: 25px;
+ }
+.review_rating {
+  font-weight: bold;
+}
+
+.review_time {
+  font-style: italic;
 }
